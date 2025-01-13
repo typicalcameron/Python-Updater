@@ -1,3 +1,3 @@
-module update-python-2
+module python-updater
 
 go 1.23.4
