@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	checkeol "python-updater/pkg/check-eol"
+	checkEOL "python-updater/pkg/check-eol"
 	"python-updater/pkg/installPython"
 	"python-updater/pkg/isPythonInstalled"
 	"python-updater/pkg/uninstallPython"
@@ -42,7 +42,7 @@ func main() {
 		case 4:
 			installPython.InstallPython()
 		case 5:
-			checkeol.CheckEOL()
+			checkEOL.CheckEOL()
 		default:
 			fmt.Println("Invalid Choice, Please Try Again.")
 		}

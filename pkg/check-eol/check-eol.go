@@ -1,4 +1,4 @@
-package checkeol
+package checkEOL
 
 import (
 	"encoding/json"
