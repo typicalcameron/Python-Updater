@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 	"os"
+	logToFile "python-updater/pkg/logtofile"
 	"text/tabwriter"
-	logToFile "update-python-2/pkg/logtofile"
 )
 
 type VersionInfo struct {

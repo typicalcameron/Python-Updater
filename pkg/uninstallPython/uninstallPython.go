@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"python-updater/pkg/isPythonInstalled"
+	logToFile "python-updater/pkg/logtofile"
 	"strings"
-	"update-python-2/pkg/isPythonInstalled"
-	logToFile "update-python-2/pkg/logtofile"
 )
 
 func UninstallPython() {

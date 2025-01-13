@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	checkeol "update-python-2/pkg/check-eol"
-	"update-python-2/pkg/installPython"
-	"update-python-2/pkg/isPythonInstalled"
-	"update-python-2/pkg/uninstallPython"
+	checkeol "python-updater/pkg/check-eol"
+	"python-updater/pkg/installPython"
+	"python-updater/pkg/isPythonInstalled"
+	"python-updater/pkg/uninstallPython"
 )
 
 func main() {

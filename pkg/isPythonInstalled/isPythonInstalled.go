@@ -2,9 +2,9 @@ package isPythonInstalled
 
 import (
 	"os/exec"
+	logToFile "python-updater/pkg/logtofile"
 	"runtime"
 	"strings"
-	logToFile "update-python-2/pkg/logtofile"
 )
 
 func CheckVersion() {

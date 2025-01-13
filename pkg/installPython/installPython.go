@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	logToFile "python-updater/pkg/logtofile"
 	"strings"
-	logToFile "update-python-2/pkg/logtofile"
 )
 
 func CleanExeInput(exeFileInput string) string {
